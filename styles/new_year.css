@@ -10,6 +10,14 @@
   font-variation-settings: "wdth" 100;
 }
 
+.inter-secondaryFont {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* banner style  */
+
 .banner {
   border-radius: 16px;
   background:
@@ -42,4 +50,43 @@
   font-weight: 900;
   line-height: 95px;
   text-align: center;
+}
+
+/* discount style  */
+
+.discount {
+  max-width: 802.9px;
+  margin: 0 auto;
+}
+.discount-amount {
+  color: rgba(255, 0, 0, 1);
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 106px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.discount-para {
+  color: rgba(255, 0, 0, 1);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.discount-title {
+  color: rgba(7, 2, 17, 1);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.newyear-image {
+  width: 802.9px;
+  height: 500px;
+  margin-bottom: 120px;
 }
