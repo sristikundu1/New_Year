@@ -205,7 +205,7 @@ span {
 /* comming offer style  */
 
 .comming-offer {
-  max-width: 1460px;
+  max-width: 1620px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -296,7 +296,7 @@ span {
 /* 50% sale */
 
 .gift-sale {
-  width: 1320px;
+  width: 1620px;
   height: 229px;
   margin: 420px auto 100px;
   position: relative;
@@ -327,7 +327,7 @@ span {
 /* gift cards */
 
 .gift-items {
-  max-width: 1320px;
+  max-width: 1620px;
   margin: 0 auto;
 }
 
@@ -343,4 +343,92 @@ span {
   height: auto;
   display: block;
   border-radius: 16px;
+}
+
+/* newsletter style  */
+
+.newsletter {
+  max-width: 1620px;
+  margin: 0 auto;
+  background-color: #fff2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 50px 8px;
+  border-radius: 18px;
+}
+
+.email-submit {
+  display: flex;
+}
+.email-submit input {
+  background-color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px 0 0 25px;
+  width: 300px;
+}
+.email-submit button {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 0 25px 25px 0;
+}
+
+.news-description {
+  text-align: center;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+footer {
+  background-color: #070211;
+  padding: 80px 150px;
+  margin-top: 100px;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.contact,
+.website {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 30px 0;
+}
+
+.social img {
+  width: 54px;
+  height: 54px;
+}
+
+.rights {
+  margin-top: 30px;
 }
